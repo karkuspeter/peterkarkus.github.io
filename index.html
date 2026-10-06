@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Peter Karkus</title>
+  <meta name="description" content="Peter Karkus — Research Scientist at NVIDIA Research. Machine learning, robotics, autonomous vehicles, embodied AI.">
+  <meta property="og:title" content="Peter Karkus">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://karkuspeter.github.io/">
+  <meta property="og:image" content="https://karkuspeter.github.io/profile.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --text: #000;
+      --paper-title: #444;
+      --paper-text: #555;
+      --narrow: 560px;
+      --wide: 760px;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      font-family: 'Roboto', Arial, sans-serif;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 1.55;
+      color: var(--text);
+      background: #fff;
+    }
+    a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+    a:hover { opacity: .7; }
+    b, strong { font-weight: 500; }
+    .wrap { padding: 40px 20px 0; }
+
+    /* ---------- Header (centered) ---------- */
+    .intro { text-align: center; max-width: var(--wide); margin: 0 auto; }
+    .photo {
+      width: 230px; height: 230px;
+      margin: 0 auto;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+    .photo img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+    h1 { font-weight: 700; font-size: 36px; line-height: 1.23; margin: 50px 0 18px; }
+    .intro p { margin: 0; line-height: 1.75; }
+    .intro a b { font-weight: 700; }
+    .prev-title { margin-top: 22px !important; }
+    .prev { list-style: none; padding: 0; margin: 0; line-height: 1.55; }
+
+    /* ---------- About (narrow, left-aligned) ---------- */
+    .about { max-width: var(--narrow); margin: 47px auto 0; }
+    .about p { margin: 0 0 22px; line-height: 1.4; }
+
+    /* ---------- Papers (wider, left-aligned) ---------- */
+    .pubs { max-width: var(--wide); margin: 86px auto 0; }
+    h2 { font-weight: 700; font-size: 26px; line-height: 1.23; margin: 0 0 20px; }
+    .papers { list-style: none; padding: 0; margin: 0; }
+    .paper { margin: 0 0 14px; line-height: 1.4; color: var(--paper-text); }
+    .paper .title { font-weight: 500; color: var(--paper-title); }
+    .paper .authors, .paper .venue, .paper .award { display: block; }
+    .paper .venue { font-style: italic; }
+    .paper .award { font-weight: 500; color: var(--paper-title); }
+    .paper a { color: #000; }
+    .paper .eq { font-style: italic; }
+
+    footer { text-align: center; margin: 90px auto 0; padding: 0 0 60px; }
+    footer b { font-weight: 700; }
+    footer a { text-decoration: none; }
+
+    /* ---------- Small screens ---------- */
+    @media (max-width: 640px) {
+      .wrap { padding-top: 30px; }
+      .photo { width: 180px; height: 180px; }
+      h1 { font-size: 28px; margin-top: 32px; }
+      .intro p, .prev { font-size: 15px; }
+      .about { margin-top: 36px; }
+      .pubs { margin-top: 40px; }
+      h2 { font-size: 22px; }
+      .paper { font-size: 15px; margin-bottom: 14px; }
+      footer { margin-top: 60px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+
+    <section class="intro">
+      <div class="photo">
+        <!-- Falls back to the old Tilda-hosted image until profile.jpg is added to the repo -->
+        <img src="profile.jpg" alt="Peter Karkus"
+             onerror="this.onerror=null;this.src='https://static.tildacdn.info/tild6431-3963-4338-b164-376230316362/-/resize/800x/IMG_8808_Online.JPG';">
+      </div>
+        <h1>Hi, I'm Peter Karkus.</h1>
+        <p>Research Scientist @ <a href="https://research.nvidia.com/"><b>NVIDIA Research</b></a></p>
+        <p>
+          pkarkus@nvidia.com | <a href="https://scholar.google.com/citations?user=cjUid0YAAAAJ">Google Scholar</a> | <a href="https://www.linkedin.com/in/peter-karkus-b301b223/">LinkedIn</a> | <a href="https://github.com/karkuspeter">GitHub</a>
+        </p>
+        <p class="prev-title">Previously:</p>
+        <ul class="prev">
+          <li>PhD Candidate, Research Assistant @ <a href="http://www.nus.edu.sg/"><b>National University of Singapore</b></a></li>
+          <li>Research Intern @ <a href="https://deepmind.google/"><b>DeepMind</b></a>,</li>
+          <li>Research Intern @ <a href="https://research.google/teams/brain/"><b>Google Brain</b></a></li>
+          <li>Visiting Researcher @ <a href="https://www.csail.mit.edu/"><b>MIT CSAIL</b></a></li>
+          <li>Fulbright Visiting Researcher @ <a href="https://www.ri.cmu.edu/"><b>CMU Robotics Institute</b></a></li>
+          <li>Intern @ <a href="https://www.rd.ntt/e/brl/"><b>NTT Basic Research Lab</b></a></li>
+        </ul>
+    </section>
+
+    <section class="about">
+      <p>I am a researcher in machine learning and robotics with a long-term vision of building human-level robot intelligence. My research focuses on autonomous vehicles and embodied AI that combines learning with structure and reasoning. My recent works are on neural networks that encode classic robot algorithms in order to learn partially observable planning, visual navigation, localization, and mapping tasks.</p>
+      <p>Interests: reinforcement learning, neural networks, embodied AI, autonomous vehicles, planning, robot control, visual navigation.</p>
+    </section>
+
+    <section class="pubs">
+      <h2>Selected papers</h2>
+      <ul class="papers">
+
+        <li class="paper">
+          <span class="title">DiffStack: A Differentiable and Modular Control Stack for Autonomous Vehicles</span>
+          <span class="res">[<a href="https://arxiv.org/abs/2212.06437">pdf</a>] [<a href="https://sites.google.com/view/diffstack">website</a>] [<a href="https://github.com/NVlabs/diffstack">code</a>]</span>
+          <span class="authors">P. Karkus, B. Ivanovic, S. Mannor, M. Pavone.</span>
+          <span class="venue">Conference on Robot Learning (CoRL), 2022</span>
+        </li>
+
+        <li class="paper">
+          <span class="title">Differentiable SLAM-net: Learning Particle SLAM for Visual Navigation</span>
+          <span class="res">[<a href="https://arxiv.org/pdf/2105.07593.pdf">pdf</a>] [<a href="https://sites.google.com/view/slamnet">website</a>] [<a href="https://www.youtube.com/watch?v=ugEKzydiXPY">talk</a>]</span>
+          <span class="authors">P. Karkus, S. Cai, D. Hsu.</span>
+          <span class="venue">Conference on Computer Vision and Pattern Recognition (CVPR), 2021</span>
+        </li>
+
+        <li class="paper">
+          <span class="title">Beyond Tabula-Rasa: a Modular Reinforcement Learning Approach for Physically Embedded 3D Sokoban</span>
+          <span class="res">[<a href="https://arxiv.org/pdf/2010.01298.pdf">pdf</a>] [<a href="https://sites.google.com/view/modular-rl/">website</a>]</span>
+          <span class="authors">P. Karkus, M. Mirza, A. Guez, A. Jaegle, T. Lillicrap, L. Buesing, N. Heess, T. Weber.</span>
+          <span class="venue">arXiv preprint arXiv:2010.01298, 2020</span>
+        </li>
+
+        <li class="paper">
+          <span class="title">Differentiable Mapping Networks: Learning Structured Map Representations for Sparse Visual Localization</span>
+          <span class="res">[<a href="https://arxiv.org/pdf/2005.09530.pdf">pdf</a>] [<a href="https://sites.google.com/view/differentiable-mapping">website</a>] [<a href="https://www.youtube.com/watch?v=0p9snxxGicI">talk</a>]</span>
+          <span class="authors">P. Karkus, A. Angelova, V. Vanhoucke, R. Jonschkowski.</span>
+          <span class="venue">International Conference on Robotics and Automation (ICRA), 2020</span>
+        </li>
+
+        <li class="paper">
+          <span class="title">Discriminative Particle Filter Reinforcement Learning for Complex Partial Observations</span>
+          <span class="res">[<a href="https://openreview.net/pdf?id=HJl8_eHYvS">pdf</a>] [<a href="https://github.com/Yusufma03/DPFRL">code</a>]</span>
+          <span class="authors">X. Ma, P. Karkus, N. Ye, D. Hsu, W.S. Lee.</span>
+          <span class="venue">International Conference on Learning Representations (ICLR), 2020</span>
+        </li>
+
+        <li class="paper">
+          <span class="title">Particle Filter Recurrent Neural Networks</span>
+          <span class="res">[<a href="https://arxiv.org/pdf/1905.12885.pdf">pdf</a>] [<a href="https://github.com/Yusufma03/pfrnns">code</a>]</span>
+          <span class="authors">X. Ma*, P. Karkus*, D. Hsu, W.S. Lee. <span class="eq">*equal contribution</span></span>
+          <span class="venue">AAAI Conference on Artificial Intelligence (AAAI), 2020</span>
+        </li>
+
+        <li class="paper">
+          <span class="title">Differentiable Algorithm Networks for Composable Robot Learning</span>
+          <span class="res">[<a href="http://rss2019.informatik.uni-freiburg.de/papers/0128_FI.pdf">pdf</a>] [<a href="https://youtu.be/A91AIgBuxxE?t=558">talk</a>]</span>
+          <span class="authors">P. Karkus, X. Ma, D. Hsu, L.P. Kaelbling, W.S. Lee, T. Lozano-Perez.</span>
+          <span class="venue">Robotics: Science and Systems (RSS), 2019</span>
+          <span class="award">Best Student Paper Nomination. Best System Paper Nomination.</span>
+        </li>
+
+        <li class="paper">
+          <span class="title">Factored Contextual Policy Search with Bayesian Optimization</span>
+          <span class="res">[<a href="http://mlg.eng.cam.ac.uk/pub/pdf/PinKarKupetal19.pdf">pdf</a>]</span>
+          <span class="authors">R. Pinsler*, P. Karkus*, A. Kupcsik, D. Hsu, W.S. Lee. <span class="eq">*equal contribution</span></span>
+          <span class="venue">International Conference on Robotics and Automation (ICRA), 2019</span>
+        </li>
+
+        <li class="paper">
+          <span class="title">Particle Filter Networks with Application to Visual Localization</span>
+          <span class="res">[<a href="http://proceedings.mlr.press/v87/karkus18a/karkus18a.pdf">pdf</a>] [<a href="https://github.com/AdaCompNUS/pfnet">code</a>]</span>
+          <span class="authors">P. Karkus, D. Hsu, W.S. Lee.</span>
+          <span class="venue">Conference on Robot Learning (CoRL), 2018</span>
+        </li>
+
+        <li class="paper">
+          <span class="title">QMDP-Net: Deep Learning for Planning under Partial Observability</span>
+          <span class="res">[<a href="https://papers.nips.cc/paper/7055-qmdp-net-deep-learning-for-planning-under-partial-observability.pdf">pdf</a>] [<a href="https://github.com/AdaCompNUS/qmdp-net">code</a>]</span>
+          <span class="authors">P. Karkus, D. Hsu, W.S. Lee.</span>
+          <span class="venue">Advances in Neural Information Processing Systems (NeurIPS), 2017</span>
+        </li>
+
+        <li class="paper">
+          <span class="title">Recursive Constraint Manifold Subsearch for Multirobot Path Planning with Cooperative Tasks</span>
+          <span class="res">[<a href="https://www.aaai.org/ocs/index.php/SOCS/SOCS16/paper/viewFile/13949/13234">pdf</a>]</span>
+          <span class="authors">P. Karkus, G. Wagner, H. Choset.</span>
+          <span class="venue">Annual Symposium on Combinatorial Search (SOCS), 2016</span>
+        </li>
+
+        <li class="paper">
+          <span class="title">Generation of entangled photons using an arrayed waveguide grating</span>
+          <span class="res">[<a href="http://iopscience.iop.org/article/10.1088/2040-8986/aa912a/pdf">pdf</a>]</span>
+          <span class="authors">N. Matsuda, H. Nishi, P. Karkus, T. Tsuchizawa, K. Yamada, W.J. Munro, K. Shimizu, H. Takesue.</span>
+          <span class="venue">Journal of Optics 19(12), 2017</span>
+        </li>
+
+        <li class="paper">
+          <span class="title">On-Chip Generation and Demultiplexing of Quantum Correlated Photons Using a Silicon-Silica Monolithic Photonic Integration Platform</span>
+          <span class="res">[<a href="https://www.osapublishing.org/oe/abstract.cfm?uri=oe-22-19-22831">pdf</a>]</span>
+          <span class="authors">N. Matsuda, P. Karkus, H. Nishi, T. Tsuchizawa, W.J. Munro, H. Takesue, K. Yamada.</span>
+          <span class="venue">Optics Express 22(19), 2014</span>
+        </li>
+
+      </ul>
+    </section>
+
+    <footer>
+      <b>Contact</b>: <a href="mailto:pkarkus@nvidia.com">pkarkus@nvidia.com</a>
+    </footer>
+
+  </main>
+</body>
+</html>
